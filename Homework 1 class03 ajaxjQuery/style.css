@@ -1,0 +1,52 @@
+/*******Exercise 1******/
+
+#printRetrievedDataDiv{
+    margin-left: 43%;
+    
+}
+
+#makeApicall{
+    margin-left: 42%;
+    margin-top: 1%;
+    background-color: rgba(0, 138, 252, 0.726);
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+#wrapper{
+    height: 104px;
+    background-color: rgb(140, 240, 100);
+    border: 1px solid black;
+}
+
+p{
+    display: inline-block;
+    padding: 0;
+    width: 90px;
+    font-size: larger;
+    font-weight: bolder;
+}
+/*******Exercise 2*******/
+
+
+
+#wrapperTwo{
+    height: 230px;
+    background-color: rgb(140, 240, 100);
+    border: 1px solid black;
+}
+
+
+#makeApicallPlanets{
+    margin-left: 42%;
+    margin-top: 1%;
+    background-color: rgba(0, 138, 252, 0.726);
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+#printRetrievedDataDivPlanets{
+    margin-left: 45%;
+   
+}
+
