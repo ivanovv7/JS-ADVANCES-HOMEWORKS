@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+
+}
+
+/************* WEATHER NAVIGATION CSS **************/
+nav{
+    border-bottom: 2px solid white;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    
+}
+
+body{
+    background-image: url("./backgroundPhotos/backgroundPhoto.jpg")
+}
+
+input{
+    display: inline-block;
+    margin-left: 60%;
+    margin-top: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    
+}
+input:hover{
+    background-color: bisque;
+   color:  rgb(121, 78, 0);
+}
+
+button{
+    display: inline;
+    margin-left: 2%;
+    margin-top: 5px;
+    margin-bottom: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    font-size: 15px;
+    
+}
+
+button:hover{
+   background-color: bisque;
+   color: rgb(121, 78, 0);
+ 
+
+}
+
+
+/************* SECTION WEATHER STATS VIEW CSS **************/
+
+#title{
+    font-size: 30px;
+    color: white;
+}
+
+#weatherStatsSection{
+    text-align: center;
+    color: white;
+}
+/* this class selector was generated from JavaScript
+ and it is for the ICON*/
+.weatherViewIconJs{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.weatherView{
+    font-size: larger;
+    font-weight: 700;
+}
+
+#statsTable{
+    margin-right: auto;
+    margin-left: auto
+    
+}
+
+.tabbleRow{
+    text-align: center;
+}
+
+.warmestAndColdestTime{
+    text-align: center;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.homeHourButons{
+    background-color: white;
+    border: 0px;
+}
+
+
+/************* SECTION HOURLY VIEW CSS **************/
+
+#hourlyTable{
+    margin-top: 50px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+
+td{
+    text-align: center; /* TD SELECTOR, TO ALIGN ALL TEXT INSIDE ALL TD FOR THE TWO DYNAMICALLY GENERATED TABLES => before this it was a mess**/
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#titleHourlyData{
+    text-align: center;
+    font-size: 30px; /* same size as the title in other view for better looks !*/
+}
+
+/* by default hide the hourly data, IT WILL BE MANIPULATED IN JS*/
+#hourlySection{
+    display: none;
+    color: white;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <!-- *** NAVIGATION *** -->
+        <nav>
+            <button id="homeBtn" class="homeHourButons">Home</button>
+            <button id="hourlyBtn" class="homeHourButons">Hourly</button>
+
+            <input id="input" type="text" placeholder="Enter City Name">
+            <button id="btnSearch">Search</button>
+        </nav>
+    </header>
+
+    <!-- SECTION FOR VIEW => WEATHER STATS -->
+    <section id="weatherStatsSection">
+        <h1 id="title" class="weatherView">Weather Forecast</h1>
+        <p id="cityName" class="weatherView"></p>
+        <p id="currentFeelsLike" class="weatherView"></p>
+        <p id="IconAndIconText" class="weatherView"></p>
+
+        <table id="statsTable" cellspacing="5"></table>
+
+        <p id="warmestTimeHtml" class="warmestAndColdestTime"></p>
+        <p id="coldestTimeHtml" class="warmestAndColdestTime"></p>
+    </section>
+
+
+    <!-- SECTION FOR HOURLY DATA STATS -->
+    <section id="hourlySection">
+        <h1 id="titleHourlyData">Hourly data</h1>
+        <table id="hourlyTable" cellspacing="40"></table>
+    </section>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
